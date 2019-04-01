@@ -25,7 +25,7 @@ def bin(x):
 	l = []
 	while x != 1:
 		r = x % 2
-		x = math.floor(x / 2)
+		x = math.floor(x // 2)
 		l.append(r)
 	
 	l.append(x)

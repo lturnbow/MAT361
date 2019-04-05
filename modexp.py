@@ -20,6 +20,8 @@ def modexp(a, x, m):
 			mult *= list1[i]
 			
 	print(mult % m)
+
+	return mult % m
 	
 def bin(x):
 	l = []
